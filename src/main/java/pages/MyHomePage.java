@@ -11,7 +11,7 @@ public class MyHomePage extends Annotations {
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(linkText="Leads")
+	@FindBy(linkText="Lead") //change from dhanya
 	WebElement eleLeads;
 	
 	public MyLeadsPage clickLeads() {
